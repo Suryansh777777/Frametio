@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { AlignJustify, X } from "lucide-react";
 import DropDownMenu from "./drop-down-menu";
 const Navbar = () => {
@@ -14,7 +13,7 @@ const Navbar = () => {
     setisDropDownVisible(false);
   };
   return (
-    <div className="">
+    <div>
       <div className="p-6 md:p-10 flex items-center justify-between z-50">
         <div>
           <Link className="cursor-pointer " href="/">

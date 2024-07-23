@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-full h-screen md:items-center md:justify-center bg-black/[0.96] antialised bg-grid/white relative overflow-hidden">
       <Navbar />
       <Spotlight
-        className="hidden md:flex md:left-80 md:-top-80"
+        className="hidden md:flex md:left-90 md:-top-80"
         fill="white"
       />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-24 px-2">
@@ -24,6 +24,7 @@ export default function Home() {
         >
           Book a Call
         </Link>
+        <div className="w-full"></div>
       </div>
     </div>
   );

@@ -25,9 +25,7 @@ export default function Home() {
         >
           Book a Call
         </Link>
-        <div className="w-full pt-20">
-          <SliderOne />
-        </div>
+        <div className="w-full pt-20"></div>
       </div>
     </div>
   );

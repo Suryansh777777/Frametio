@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
 import Link from "next/link";
+import GraphicDesign from "./graphic-design";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
           Book a Call
         </Link>
         <div className="w-full pt-20"></div>
+        <SliderOne />
+        <GraphicDesign />
       </div>
     </div>
   );

@@ -34,8 +34,10 @@ const Brands = () => {
   return (
     <div>
       <div className=" p-4   mx-auto relative z-10  w-full pt-20 md:pt-32">
-        <div className="text-4xl md:pb-8 md:text-7xl text-center 
-        bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+        <div
+          className="text-4xl md:pb-8 md:text-7xl text-center 
+        bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50"
+        >
           The best brands <br /> choose us
         </div>
 
@@ -66,7 +68,7 @@ const Brands = () => {
           )}
         >
           &quot;We got rid of nearly a dozen different tools because of what
-          Bird does for us.&quot;
+          Frametio does for us.&quot;
         </div>
 
         <div className="items-center flex justify-center flex-col text-white">

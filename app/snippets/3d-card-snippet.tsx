@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Link from "next/link";
 
 export function ThreeDCardExample() {
   return (
@@ -34,9 +33,7 @@ export function ThreeDCardExample() {
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
-            as={Link}
-            href="https://twitter.com/mannupaaji"
-            target="__blank"
+            as="button"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
             Try now →
